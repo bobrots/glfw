@@ -15,7 +15,8 @@ project "GLFW"
 		"src/input.c",
 		"src/monitor.c",
 		"src/vulkan.c",
-		"src/window.c"
+		"src/window.c",
+		"src/platform.c"
 	}
 	filter "system:linux"
 		pic "On"
