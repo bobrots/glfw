@@ -15,9 +15,7 @@ project "GLFW"
 		"src/input.c",
 		"src/monitor.c",
 		"src/vulkan.c",
-		"src/window.c",
-		"src/platform.c",
-		"src/null_platform.c"
+		"src/window.c"
 	}
 	filter "system:linux"
 		pic "On"
@@ -33,7 +31,6 @@ project "GLFW"
 			"src/xkb_unicode.c",
 			"src/posix_time.c",
 			"src/posix_thread.c",
-			"src/posix_module.c",
 			"src/glx_context.c",
 			"src/egl_context.c",
 			"src/osmesa_context.c",
@@ -57,7 +54,6 @@ project "GLFW"
 			"src/win32_time.c",
 			"src/win32_thread.c",
 			"src/win32_window.c",
-			"src/win32_module.c",
 			"src/wgl_context.c",
 			"src/egl_context.c",
 			"src/osmesa_context.c"
